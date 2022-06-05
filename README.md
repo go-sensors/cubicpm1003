@@ -18,7 +18,7 @@ The [Cubic PM1003][cubicpm1003] particulate matter sensor is primarily used for 
 
 ## Building
 
-This software doesn't have any compiled assets, but the build process does run linting, vetting, and tests against each release.
+This software doesn't have any compiled assets.
 
 ## Code of Conduct
 
