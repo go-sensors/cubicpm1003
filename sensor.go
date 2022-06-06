@@ -205,7 +205,7 @@ func (s *Sensor) Run(ctx context.Context) error {
 }
 
 // Concentrations returns a channel of PM concentration readings as they become available from the sensor
-func (s *Sensor) Concentrations() chan *pm.Concentration {
+func (s *Sensor) Concentrations() <-chan *pm.Concentration {
 	return s.concentrations
 }
 
